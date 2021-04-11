@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+    border-bottom: 2px solid red;
+}
+
+#generator-area {
+    margin-left: 44%;
+}
+
+#instructions {
+    margin-top: 12%;
+    margin-left: 35.75%;
+}
+
+#answer {
+    height: 120px;
+    width: 350px;
+    border: 2px solid black;
+    margin-top: 12px;
+    margin-left: 36%;
+    margin-bottom: 12px;
+}
+
+#generator-btn {
+    height: 75px;
+    width: 150px;
+    font-weight: 800;
+}
