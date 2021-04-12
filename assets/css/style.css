@@ -1,7 +1,9 @@
 header {
     text-align: center;
     font-size: 36px;
-    margin-top: 40px;
+    font-weight:600;
+    padding-top: 40px;
+    background-color: darkgrey;
     border-bottom: 2px solid red;
 }
 
@@ -11,7 +13,8 @@ header {
 
 #instructions {
     margin-top: 12%;
-    margin-left: 35.75%;
+    margin-left: 35.50%;
+    font-weight: 600;
 }
 
 #answer {
@@ -26,5 +29,5 @@ header {
 #generator-btn {
     height: 75px;
     width: 150px;
-    font-weight: 800;
+    font-weight: 700;
 }
