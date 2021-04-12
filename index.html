@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Password Generator</title>
 </head>
+
 <body>
     <header>Password Generator</header>
     <main>
         <div id="instructions">Click the Generate Button to create your password!</div>
-        <div id="answer"></div>
+        <textarea readonly id="answer" placeholder="Your Password" aria-label="Generated Password"></textarea>
         <div id="generator-area">
-            
+
             <button type="button" id="generator-btn" class="btn btn-primary">Generate!</button>
         </div>
     </main>
 
 </body>
 <script src="assets/js/script.js"></script>
+
 </html>
